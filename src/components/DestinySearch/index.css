@@ -1,0 +1,58 @@
+/* Background */
+.app-container {
+  min-height: 100vh;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #1d2671, #c33764);
+  font-family: "Poppins", sans-serif;
+}
+
+/* Title */
+.heading {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+/* Search bar (glass) */
+.search-input {
+  width: 100%;
+  max-width: 420px;
+  padding: 14px 50px 14px 18px;
+  font-size: 16px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  outline: none;
+  display: block;
+  margin: 0 auto 40px auto;
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.35);
+}
+
+.search-input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Search icon */
+.search-icon {
+  width: 22px;
+  position: relative;
+  top: -70px;
+  left: calc(50% + 175px);
+  filter: brightness(0) invert(1);
+}
+
+/* Cards grid */
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 28px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
