@@ -8,6 +8,7 @@ li {
   box-shadow: 0 20px 45px rgba(0, 0, 0, 0.4);
   transition: transform 0.4s ease, box-shadow 0.4s ease;
   cursor: pointer;
+  width: 250px;
 }
 
 li:hover {
@@ -23,7 +24,7 @@ li img {
   border-radius: 14px;
 }
 
-/* Destination name */
+/* Text */
 li p {
   margin-top: 14px;
   font-size: 18px;

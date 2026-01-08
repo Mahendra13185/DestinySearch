@@ -15,7 +15,7 @@
   margin-bottom: 30px;
 }
 
-/* Search bar (glass) */
+/* Search bar */
 .search-input {
   width: 100%;
   max-width: 420px;
@@ -46,13 +46,14 @@
   filter: brightness(0) invert(1);
 }
 
-/* Cards grid */
+
 ul {
   list-style-type: none;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  grid-template-columns: repeat(auto-fill, 250px);
   gap: 28px;
+  justify-content: center;
   max-width: 1200px;
   margin: 0 auto;
 }
